@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="full">
+    <h3>The Current Epoch Unix Timestamp</h3>
+    <div class="block">
+        <div class="left">
+            <h5 class="h50ne">Enter a Timestamp</h5>
+            <input class="inp" type="number" id="inp_one" placeholder="123456789"  >
+            <p>Supports Unix timestamps 
+                in seconds, <br>
+                milliseconds, microseconds 
+                and nanoseconds</p>
+            <div>
+                <button class="btn_one" >Convert <span>&#10145</span></button>
+                <!-- <img src="img/arrow-right (1).png" alt=""> -->
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="big_num">0</div>
+            <h4 class="h4_one">SECONDS SINCE JAN 01 1970. (UTC)</h4>
+            <div class="time">000</div>
+            <button class="btn_two">Copy <span>&#10145</span></button>
+        </div>
+    </div>
+        
+
+    <section class="top_block hidden">
+        <div class="into">
+            <span>Format</span>
+            <div class="import first1">Seconds.</div>
+        </div>
+
+        <div class="into">
+            <span>GMT</span>
+            <div class="import second2">0000000</div>
+        </div>
+
+        <div class="into">
+            <span>Your Time Zone</span>
+            <div class="import third3">0000000</div>
+        </div>
+
+        <div class="into">
+            <span>Relative</span>
+            <div class="import fourth4">20 years ago</div>
+        </div>
+
+    </section>
+    
+    <h5 class="h5two">Enter a Date & Time</h5>
+
+    <div class="time_day">
+        <div class="year">
+            <p>Year</p>
+            <input class="year1" type="number" placeholder="2020">
+        </div>
+
+        <div class="year">
+            <p>Month</p>
+            <input class="month1" type="number" placeholder="12">
+        </div>
+
+        <div class="year">
+            <p>Day</p>
+            <input class="day1" type="number" placeholder="7">
+        </div>
+
+        <div class="year">
+            <p>Hour (24 hour)</p>
+            <input class="hour1" type="number" placeholder="24">
+        </div>
+
+        <div class="year">
+            <p>Minutes</p>
+            <input class="min1" type="number" placeholder="60">
+        </div>
+
+        <div class="year">
+            <p>Seconds</p>
+            <input class="sec1" type="number" placeholder="50">
+        </div>
+
+    </div>
+    <button class="btn_three">Convert <span>&#10145</span></button>
+
+    <section class="botton_block">
+        <div class="into">
+            <span>Unix Timestamp</span>
+            <div class="import1 last">0000000</div>
+        </div>
+
+        <div class="into">
+            <span>GMT</span>
+            <div class="import2 last">0000000</div>
+        </div>
+
+        <div class="into">
+            <span>Your Time Zone</span>
+            <div class="import3 last">0000000</div>
+        </div>
+
+        <div class="into">
+            <span>Relative</span>
+            <div class="import4 last"> 5 hours ago</div>
+        </div>
+
+    </section>
+    
+
+</section> 
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
